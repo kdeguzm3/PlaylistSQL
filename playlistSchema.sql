@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS playlist_db;
+
+CREATE DATABASE playlist_db;
+
+USE playlist_db;
+
+CREATE TABLE songs (
+id INTEGER NOT NULL AUTO_INCREMENT,
+title VARCHAR (100) NOT NULL,
+artist VARCHAR (100),
+genre VARCHAR (100),
+PRIMARY KEY (id)
+);
